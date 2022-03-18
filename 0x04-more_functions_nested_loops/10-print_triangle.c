@@ -9,26 +9,20 @@
 void print_triangle(int size)
 {
 
-	int i = 1, ii;
-
-	while (i <= size && size > 0)
+	int row, colum, k;
+	if (size <= 0)
 	{
-		ii = 0;
-		while (ii < size - i)
-		{
-			_putchar(' ');
-			ii++;
-		}
-		ii = 0;
-		while (ii < i)
-		{
-			_putchar('#');
-			ii++;
-		}
-
 		_putchar('\n');
-		i++;
 	}
-	if (i == 1)
-		_putchar('\n');
+	else
+	{
+		for (row = 0; row < size; row++)
+		{
+			for (colum = size - row ; colum > 1; colum--)
+				_putchar(' ');
+			for (k = 0 ; k <= row; K++)
+				_putchar('#');
+			_putchar('\n');
+		}
+	}		
 }
