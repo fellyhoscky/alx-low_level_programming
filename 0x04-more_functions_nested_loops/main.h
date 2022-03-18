@@ -1,5 +1,5 @@
-#ifndef _main.h_
-#define _main.h_
+#ifndef _main_h_
+#define _main_h_
 
 int _putchar(char c);
 int _isupper(int c);
@@ -12,5 +12,4 @@ void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
 int print_traingle(int size);
-
 #endif
