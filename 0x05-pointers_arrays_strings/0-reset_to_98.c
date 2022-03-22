@@ -1,14 +1,14 @@
 #include "main.h"
-#include <main.h>
 
 /**
- * main - a pointer to check
- * Return 0
+ *reset_to_98 - updates a integer value to 98
+ *@n: A pointer to an int that will be updated
+ *
+ *Return: void that means is correct
  */
 
 void reset_to_98(int *n)
-{
-	int n = 98;
-	*n = &n;
-}
 
+{
+	*n = 98;
+}
